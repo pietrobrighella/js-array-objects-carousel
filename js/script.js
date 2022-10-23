@@ -115,7 +115,7 @@ function slider(){
         overlayHtml[i].setAttribute('data-index', i);
         overlayHtml[i].addEventListener('click', function(){
             let overlayClicked = overlayHtml[i].getAttribute('data-index');
-            console.log(overlayClicked)
+            console.log(parseInt(overlayClicked));
         });
     }
 }
